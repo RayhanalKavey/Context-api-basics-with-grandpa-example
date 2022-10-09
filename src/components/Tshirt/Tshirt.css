@@ -1,0 +1,21 @@
+.t-shirt {
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0.5px gray;
+}
+.t-shirt button {
+  border: none;
+  color: white;
+  background-color: rgb(16, 63, 110);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.t-shirt button:hover {
+  cursor: pointer;
+  background-color: rgb(87, 139, 191);
+}

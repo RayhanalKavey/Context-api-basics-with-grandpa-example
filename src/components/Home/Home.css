@@ -1,0 +1,23 @@
+.home-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.tshirt-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px;
+}
+.tshirt-container img {
+  height: 325px;
+  width: 100%;
+  border-radius: 10px;
+}
+.cart-container {
+  border-left: 2px solid gray;
+  /* border-bottom: 2px solid gray; */
+  position: fixed;
+  top: 83px;
+  right: 0;
+  height: 100%;
+  background-color: rgb(255, 250, 180);
+}

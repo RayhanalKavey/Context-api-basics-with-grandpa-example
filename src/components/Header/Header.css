@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background-color: rgb(226, 223, 173);
+  align-items: center;
+  height: 80px;
+  border-bottom: 3px solid gray;
+  position: sticky;
+  top: 0px;
+}
+.header a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(16, 63, 110);
+  padding: 10px 20px;
+  margin: 10px;
+
+  border-radius: 10px;
+}
+.header a:hover {
+  cursor: pointer;
+  background-color: rgb(87, 139, 191);
+}
